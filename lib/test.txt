@@ -1,0 +1,46 @@
+body: Stack(
+        children: [
+          Positioned(
+            top:0, 
+            left:0,
+            right:0,
+            height: screenheight,
+             child:Container(
+              color:// Colors.orange[200]
+                     const Color.fromARGB(255, 187, 135, 57)  ,
+             ),
+          ),
+          Positioned(
+            top:0, 
+            left:0,
+            right:0,
+            height: screenheight/5,
+           child:   AppBar(
+        title: const Text("sangeet"),
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+        
+          ), 
+          ),
+          
+          Positioned(
+             top:screenheight/6, 
+            left:0,
+            right:screenwidth/2,
+            height: screenheight/3,
+            
+             child:Container(
+              
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(40),
+                color: Colors.amber ,
+                
+               
+              ),
+          )
+       ) ],
+      ),
+    );
+    
+  }
+}
